@@ -109,6 +109,8 @@ exports.cardscheme = function cardscheme(number) {
     return 'Visa Electron';
   } else if (/^(4)/.test(number)) {
     return 'Visa';
+  } else if (/^62/.test(number)) {
+    return 'UnionPay';
   }
 
   return undefined;
