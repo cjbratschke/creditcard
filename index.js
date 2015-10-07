@@ -99,8 +99,8 @@ exports.cardscheme = function cardscheme(number) {
     return 'Solo (Paymentech)';
   } else if (/^5[1-5]/.test(number)) {
     return 'MasterCard';
-  } else if (/^(6011|622|64|65)/.test(number)) {
-    return 'Discover';
+  /*} else if (/^(6011|622|64|65)/.test(number)) {
+    return 'Discover';*/
   } else if (/^3[47]/.test(number)) {
     return 'American Express';
   } else if (/^(30[0-5]|36|38|54|55|2014|2149)/.test(number)) {
